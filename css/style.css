@@ -23,7 +23,7 @@ body {
     text-align: center;
     background-color: #ECDCC9;
 }
-.about-me > h4, .about-me > p {
+.about-me > h3, .about-me > p {
     padding-bottom: 20px;
 }
 #skills {
@@ -54,9 +54,9 @@ img {
     width: 100%;
     padding-right: 10px;
 }
-.post-preview > h6 {
+.post-preview > h4 {
     margin-bottom: 10px;
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 .post-preview > p {
     margin-bottom: 10px;
