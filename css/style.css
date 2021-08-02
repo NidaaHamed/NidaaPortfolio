@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #CAC2B5;
+}
+#header {
+    background-color: #4D243D;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 380px;
+    line-height: 300%;
+
+}
+.about-me {
+    padding: 30px;
+    text-align: center;
+    background-color: #ECDCC9;
+}
+.about-me > h4, .about-me > p {
+    padding-bottom: 20px;
+}
+#skills {
+    display: flex;
+    justify-content: center;
+}
+ul {
+    list-style: none;
+    padding: 0 20px;
+    line-height: 200%;
+}
+.container {
+    padding: 20px;
+    background-color: #CAC2B5;
+    width: 100%;
+    margin: auto;
+    
+}
+.container > h3 {
+    line-height: 300%;
+    /* text-align: center; */
+}
+
+.post {
+    padding: 10px 10px 10px 0px;
+}
+img {
+    width: 100%;
+    padding-right: 10px;
+}
+.post-preview > h6 {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.post-preview > p {
+    margin-bottom: 10px;
+}
+.post-preview > a {
+    text-decoration: none;
+    color: #4D243D;
+}
+.post-preview > a:hover {
+    color: #1985A1;
+}
+
+
+footer {
+    background-color: #4D243D;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    height: 176px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 200%;
+
+}
+
+@media screen and (min-width: 600px){
+    .post {
+        display: flex;
+    }
+    img {
+        width: 30vw;
+    }
+    .container {
+        padding: 20px;
+        width: 80%;
+        margin: auto;
+    }
+}
