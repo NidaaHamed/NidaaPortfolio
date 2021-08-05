@@ -84,19 +84,19 @@
     <div id="contact-me">
 
         <h3 style="text-align: center;">Get In Touch</h3>
-    
+        <div class="alert">Your message has been sent </div>
         <form  id="contact-form" >
-            <label>Name</label>
-            <input class="input-field" type="text" id="name" value="" required>
+            <label for="name">Name</label>
+            <input class="input-field" type="text" name="name" id="name" value="" required>
 
-            <label>Subject</label>
-            <input class="input-field" type="text" id="subject" value="" required>
+            <label for="subject">Subject</label>
+            <input class="input-field" type="text" name="subject" id="subject" value="" required>
 
-            <label>Email</label>
-            <input class="input-field" type="email" id="email" value="" required>
+            <label for="email">Email</label>
+            <input class="input-field" type="email" name="email" id="email" value="" required>
 
-            <label>Message</label>
-            <textarea class="input-field" id="message" value="" required></textarea>
+            <label for="message">Message</label>
+            <textarea class="input-field" id="message" name="message" value="" required></textarea>
 
             <input id="submit-btn" type="submit" name="submit" value="send">
         </form>

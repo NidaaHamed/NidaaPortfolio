@@ -1,21 +1,12 @@
 var firebaseConfig = {
-
   apiKey: "AIzaSyCbVph5ohbxmBj3F23cWIJAwUXIFuzcVIE",
-
   authDomain: "contact-me-aea26.firebaseapp.com",
-
   databaseURL: "https://contact-me-aea26-default-rtdb.firebaseio.com",
-
   projectId: "contact-me-aea26",
-
   storageBucket: "contact-me-aea26.appspot.com",
-
   messagingSenderId: "658232984526",
-
   appId: "1:658232984526:web:91b5ec69f9ac5cc477e19f",
-
   measurementId: "G-ECGT3GSEG3"
-
 };
 
 // Initialize Firebase
@@ -42,17 +33,22 @@ function submitForm(e){
   var email = getInputVal('email');
   var message = getInputVal('message');
 
-  //test
-  console.log("name: " +name + ", subject: " +subject+", email: "+email+", message: "+message);
-
   // Save message
   saveMessage(name, subject, email, message);
+
+  //show alert
+  document.querySelector('.alert').style.display = 'block';
+
+  //Hide alert after 3 seconds
+  setTimeout(function(){
+    document.querySelector('.alert').style.display = 'none';
+  },3000);
 
   // Clear form
   document.getElementById('contact-form').reset();
 }
 
-// Function to get get form values
+// Function to get form values
 function getInputVal(id){
   return document.getElementById(id).value;
 }
