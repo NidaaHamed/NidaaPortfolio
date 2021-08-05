@@ -68,19 +68,61 @@ img {
 .post-preview > a:hover {
     color: #1985A1;
 }
+#contact-me {
+    background-color: #ECDCC9;
+    width: 100%;
+    padding: 20px;
+}
+#contact-form{
+    display: block;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+#contact-form label{
+    line-height: 2.7em;
+}
 
+#contact-form textarea{
+    min-height: 100px;
+    font-size: 14px;
+}
+
+.input-field{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ECDCC9;
+    font-size: 14px;
+}
+
+#submit-btn{
+    margin-top: 10px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background-color: #4D243D;
+    color: #fff;
+    font-size: medium;
+
+}
 
 footer {
     background-color: #4D243D;
     color: #fff;
     text-align: center;
     padding: 20px;
-    height: 176px;
+    height: 76px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     line-height: 200%;
+    position: sticky;
+    bottom: 0;
 
 }
 
