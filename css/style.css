@@ -8,6 +8,10 @@ body {
 }
 #header {
     background-color: #4D243D;
+    background-image: url('../assets/bg-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
     text-align: center;
     display: flex;
@@ -137,6 +141,10 @@ footer {
 }
 
 @media screen and (min-width: 600px){
+    #header {
+        height: 500px;
+
+    }
     .post {
         display: flex;
     }
